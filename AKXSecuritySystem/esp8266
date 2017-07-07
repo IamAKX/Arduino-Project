@@ -1,0 +1,7 @@
+wire        ESP 8266 		Arduino
+
+orange		 tx             pin 2
+blue 		 rx				pin 3
+red 		 ch_pd 			3.3v		
+yellow       vcc 			3.3v
+black        gnd			gnd

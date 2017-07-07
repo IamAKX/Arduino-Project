@@ -1,0 +1,25 @@
+Wire connection
+
+ARDUINO		GSM		Wire Color
+------------------------------
+GND			GND		yellow
+Pin0(RX)	TX		Grey
+Pin1(TX)	RX		Brown
+
+
+ARDUINO		PIR		Wire Color 
+-----------------------------  
+GND			GND		orange     
+Pin3		Output	white	   
+5V			5V		red
+
+ARDUINO		BUZZER	
+-------------------
+pin12		red
+pin13(GND)  black
+
+
+(PIR m likha hua ni hta h pin ka nam, iske lye)
+(Pir m Orange color ka do pin apne traf krna r 3 pin isme wires lgana h)
+(usko apne opposite traf rkhna, fir jo sbse right m hga wo 5Vpin, bich m jo hga )
+(wo output pin, left m jo hga wo GND pin)

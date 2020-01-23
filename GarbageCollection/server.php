@@ -1,10 +1,9 @@
 <?php
-  $num = $_GET["num"];
-  $msg = $_GET["msg"];
-  $api = "5e04299d9696d6e3e0e8e7ae8c99cbf8369a6e07";
+  $status = $_GET["status"];
+  
 
-  $url = 'https://smsany.herokuapp.com/api/sms/sendsms';
-	$data = array('phoneNumber' => $num, 'message' => $msg, 'accessKey' => $api);
+  $url = "https://us-central1-project-7009880330546042272.cloudfunctions.net/intruderFunction/v1/intruder/$status";
+	
 
 	$ch = curl_init($url);
 
@@ -15,4 +14,3 @@
 	$response = curl_exec($ch);
 	echo $response;
 	curl_close($ch);
-?>

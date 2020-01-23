@@ -54,7 +54,7 @@ void loop()
   if(cmLength <= 15)
     {
   
-      sendEmail();
+//      sendEmail();
       //sendTextMsg();  
     }
   
@@ -121,7 +121,7 @@ void sendToThinkSpeak(long cmLength)
   }
 
   // thingspeak needs 15 sec delay between updates
-  delay(16000);  
+  delay(1000);  
 }
 
 void sendTextMsg()
@@ -191,6 +191,5 @@ void sendEmail()
     // alert user
     Serial.println("AT+CIPCLOSE");
   }
-  sendTextMsg(); 
+//  sendTextMsg(); 
 }
-
